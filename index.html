@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Bin Saleem Menu</title>
+
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+
+      body {
+        background-color: #ECE5E0ff;
+
+        width: 100%;
+        height: 100%;
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+      }
+
+      header {
+        background-color: #5E7D91ff;
+        width: 100%;
+        height: 50px;
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: end;
+        align-items: center;
+      }
+
+      header figure {
+        width: auto;
+        height: 95%;
+
+        margin: 0 5%;
+      }
+
+      header figure img {
+        width: auto;
+        height: 100%;
+      }
+
+      .menu {
+        direction: rtl;
+        width: 100%;
+        height: 100vh;
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .menu-page {
+        width: auto;
+        height: 95%;
+
+        border: 1px solid;
+        margin: 2%;
+      }
+
+      @media only screen and (max-width: 600px) {
+        .menu-page {
+          width: 95%;
+          height: auto;
+        }
+      }
+    </style>
+  </head>
+
+<body>
+  <header>
+    <figure>
+      <img class="logo" src="imgs/logo.jpg">
+    </figure>
+  </header>
+
+  <div id="menu" class="menu">
+    <!-- works in script element -->
+  </div>
+  <script>
+    let imgs = ['1', '2', '3', '4', '5', '6', '7'];
+    for (const img of imgs) {
+      document.getElementById('menu').innerHTML += `
+      <img class="menu-page" src="imgs/${img}.jpg">
+    `; 
+    }
+  </script>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+</head>
+<body>
+  
+</body>
+</html>
