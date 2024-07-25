@@ -16,5 +16,5 @@ Developed an interactive online menu for a local restaurant, allowing customers 
 - Improved Customer Satisfaction: Enhanced by 20% through a convenient and modern dining experience.
 
 Mockup
-<img src="./imgs/mockup.png" width=400 />
+<img src="./imgs/bin-sleem.png" width=400 />
 
