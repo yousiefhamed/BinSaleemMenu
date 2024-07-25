@@ -15,6 +15,6 @@ Developed an interactive online menu for a local restaurant, allowing customers 
 - Reduced Printing Costs: Cut down by 50% with the elimination of physical menu printouts.
 - Improved Customer Satisfaction: Enhanced by 20% through a convenient and modern dining experience.
 
-Mockup
-<img src="./imgs/bin-sleem.png" width=400 />
+## Mockup
+<img src="./imgs/bin-sleem.png" />
 
